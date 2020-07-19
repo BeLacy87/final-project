@@ -1,5 +1,5 @@
 // const path = "va_april_DOH.csv";
-const path = "va_all_pandemic.csv";
+const path = "https://raw.githubusercontent.com/BeLacy87/final-project/master/va_all_pandemic.csv";
 const path_2="case_accell_RVA_April_May.csv"
 var hospitalizations=[];
 var cases = [];
