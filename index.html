@@ -108,9 +108,9 @@
         <h5>Covid acceleration in Richmond, VA</h5>
       </div>
       <div class="card-body" style="font-size: small;">
-        <p>For interactivity, click the left image to visit TableauPublic</p>         
-        <p>Below are the results from a RandomForest model utilizing tweets to predict change in the acceleration of the spread of Covid-19</p>
-        <p>Click the chart to visit Github</p>
+        <p>This chart illustrates not only the growth in total cases, but also the change in daily average</p>
+        <p>For interactivity, click the chart to visit TableauPublic</p>         
+        
       </div>
     </div>
   </div>
@@ -127,18 +127,21 @@
         <h5>Tf-idf details</h5>
       </div>
       <div class="card-body" style="font-size: small;">
-        <p>For interactivity, click the treemap to visit TableauPublic</p> 
+        
         <p>To the left, a treemap of words representing the top tf-idf values in tweets on days 
-        where the acceleration of Covid-19 cases in Richmond, VA does not increase at, at 14 days
-        </p>          
+        where the acceleration of Covid-19 cases in Richmond, VA does not increase at 14 days
+        </p>  
+        <p>For interactivity, click the treemap to visit TableauPublic</p>         
       </div>
     </div>
   </div>
 </div>
 <div class="row mt-5" style="justify-content: center;">
   <div class ="col-md-12">
-  <p>Initially, our RandomForest model achieved a score of 82.6% by utilizing the top 5000 tf-idfs as features over 91 days of treets.  This is with our model predicting an increase in daily_avg 100% of the time
-    However, by simply looking at analysis of the Department of Health data, we find that 80.2% of the days in our data set contributed to an increase in daily average.  Manually lowering the probability threshold to .25 for 'decrease'
+  <p>Initially, the RandomForest model achieved a score of 82.6% by utilizing the top 5000 tf-idfs as features over 91 days of treets.  
+    This is with the model predicting an increase in daily_avg 100% of the time
+    However, by simply looking at analysis of the Department of Health data, you can see that 80.2% of the days in our data set 
+    contributed to an increase in daily average, in the first place.  Manually lowering the probability threshold to .25 for 'decrease'
     results in slighlty more resolution in our confusion matrix.
     </p>
   </div>
